@@ -13,12 +13,11 @@ function setup(){
 
     plane = new Plane(600,height,1200,20)
     hammer = new Hammer(10,100);
-    stone = new Stone(10,100);
-    rubber = new Rubber(10,100);
-    iron = new Iron(10,100);
-
-  
-
+    stone = new Stone(40,100);
+    rubber = new Rubber(100,100,30);
+    rubber1 = new Rubber(400,100,30);
+    rubber2 = new Rubber(500,100,30);
+    iron = new Iron(200,100);
 
 }
 
@@ -32,6 +31,8 @@ function draw(){
     stone.display();
     rubber.display();
     iron.display();
+    rubber1.display();
+    rubber2.display();
 
     
 
